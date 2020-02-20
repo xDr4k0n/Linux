@@ -1,0 +1,71 @@
+#Tab
+tab
+ 
+#Cancel process runing!
+#Chiudi proccesso che e in runtime
+Ctrl +C
+
+#Run and send in background terminal command
+<command> &
+#or if you forget
+Ctrl+z 'while runing'
+# commando + Ctrl+z per mandare il processo in background
+background = ("Nascosto - pero ancora in esecuzione")
+
+#clear terminal screen !
+Ctrl+l
+# invece di clear e Ctrl+l
+
+#Move cursor at the beginning of the line
+Ctrl+A
+#sposta cursore alla fine riga
+
+#Oposite of Ctrl +A is :
+Ctrl+E
+#or Home button is equivalent
+#oposto di Ctrl+A sposta cursore al inizio di linea
+
+#erase everything from the current cursor
+Ctrl+U 
+#cancella sctrittura gia scritta sull terminale
+
+#similar to Ctrl+U the difference is :
+#it erases everything from the current cursor position
+Ctrl +k 
+#questo cancela tutto da dove e positionato il cursore
+# ----> verso destra
+
+#delete single word "cut"
+Ctrl + W 
+# cancela parola dal terminale 
+#funziona anche come se fosse CUT
+
+
+#Comes handy in case you erased 
+#wrong text or if you need to use the erased text someplace else.
+Ctrl+Y
+# paste il cut di Ctrl+w
+
+#Previus command 
+Ctrl + P
+# EX->commando inserito
+
+#Next Command
+Ctrl + N 
+# Prossimo commando inserito
+
+
+#serach command history
+Ctrl+r
+#cerca commando nella hystory
+alternativa di  usare la variabile
+echo "$HISTORY"
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+torbrowser-launcher
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#Ctrl + x
+cancela riga
+a volte elimina a volte duplica Ctrl+d 
